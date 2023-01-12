@@ -3,7 +3,7 @@ import Prismic from "@prismicio/client";
 export const repositoryName = "ignews";
 
 export function getPrismicClient(req?: unknown) {
-  const prismic = Prismic.client(process.env.PRISMIC_END_POINT, {
+  const prismic = Prismic.client(process.env.PRISMIC_ENDPOINT, {
     accessToken: process.env.PRISMIC_ACCESS_TOKEN,
     req
   });
