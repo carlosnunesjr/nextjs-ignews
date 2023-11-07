@@ -62,7 +62,7 @@ _Configurações dos serviços estão localizadas no arquivo servicesConfig.md n
 
 ```bash
 # Execute o comando git clone para realizar o clone do repositório
-$ git clone https://github.com/nelsonsantosaraujo/ignews.git
+$ git clone https://github.com/carlosnunesjr/nextjs-ignews.git
 # Entre na pasta do repositório clonado
 $ cd ignews
 ```
